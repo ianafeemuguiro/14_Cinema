@@ -1,0 +1,78 @@
+input[type=text] {
+    width: 250px;
+    height: 2px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 20px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+form{
+    margin-top: 30px;
+}
+
+.banner{
+    background-image: url("../img/banner.jpg") ;
+    height: 100%;
+     
+}
+
+.bannerhero{
+    width: 100px;
+    height: 90px;
+    margin-top: 330px;  
+    margin-left: 370px;
+}
+.texto{
+    margin-top: 40px;
+}
+hr{
+    width: 240px;
+}
+.verde{
+    border: 2px solid #89C167;
+    border-radius: 4px;
+    width: 60px;
+    color: #89C167;
+}
+.separador1{
+    margin-top: 15px;
+    color: white;
+}
+.separador2{
+    margin-top: 15px;
+    color: bla;
+}
+h1{
+    font-size: 40px;
+}
+.parrafog{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.peliculas{ 
+    height:200px;
+    width: 160px;
+    margin-left: 14px;
+}
+.naranja{
+    background-color: orange;
+    padding:4%; 
+}
+iframe{
+    width: 1125px;
+    height: 300px;
+    margin-left: 0px;
+}
